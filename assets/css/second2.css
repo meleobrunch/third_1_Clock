@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --font-small: 25px;
+    --font-mid: 40px;
+    --font-large: 90px;
+    --margin-twoFont: 30px;
+}
+
+#battery {
+    width: 1800px;
+}
+
+#display {
+    width: 1800px; 
+    height: 500px; 
+    background-color: #868296;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 10px;
+}
+
+#clock {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 500px;    
+}
+
+#record {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;  
+    background-color: #495057; 
+    border-radius: 20px; 
+    font-size: var(--font-mid);
+}
+
+#alarm {
+    font-size: var(--font-mid);
+    color: white;
+    background-color: #ced4da;
+    margin-left: 180px;
+}
+
+#bowl {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 10px;
+    position: relative;
+    top: 20px;
+}
+
+#ip {
+
+    height: 90px;
+    width: 150px;
+    margin: auto;  /* 폼을 수평 중앙에 배치 */
+    padding: 20px;  /* 폼 내부에 여백 추가 */
+    font-size: var(--font-mid); 
+}
+
+#ip_ {
+    height: 80px;  
+    
+}
+
+#ip2 {
+
+    border: none;
+    background-color: #868296;
+    height: 90px;
+    width: 150px;
+    margin: auto;  /* 폼을 수평 중앙에 배치 */
+    padding: 20px;  /* 폼 내부에 여백 추가 */
+    font-size: var(--font-mid);   
+}
+
+#timePicker {
+
+    height: 80px;  
+    font-size: var(--font-mid);
+    text-align: center;
+
+}
+
+#tim_{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    display: flex;
+    align-items: center; 
+    align-content: center; 
+    justify-content: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 20px;
+    width: 800px;
+    height: 200px;   
+    border-radius: 20px;     
+}
+
+#tim2 {
+    position: relative;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#tim {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: black;
+    text-align: center;
+}
+
+
+
+.box {
+    background-color: #f1f3f5;
+
+}
+
+/*개체에 직접*/
+
+.font_side_info {
+    font-size: var(--font-small);
+}
+
+.clock {
+    color: white;
+    font-size: var(--font-large);
+}
+
+.day {
+    color: white;
+    font-size: var(--font-mid);
+}
+
+/*layout*/
+.layout_flex_r {
+    display: flex;
+    flex-direction: row;
+}
+
+.layout_flex_c {
+    display: flex;
+    flex-direction: column;
+}
+
+.layout_float_r {
+    float: right;
+}
+
+.layout_float_r_m {
+    float: right;
+    margin-right: var(--margin-twoFont);
+}
+/*margin과 float를 같이 넣으니 float가 작동을 안하는군*/
+
+.margin_twoFont {
+    margin-right: var(--margin-twoFont);
+}
+
